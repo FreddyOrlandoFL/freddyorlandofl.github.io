@@ -17,11 +17,11 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Proyectos',
             href: '/projects'
         },
         {
@@ -35,15 +35,15 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Acerca',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contacto',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Terminos',
             href: '/terms'
         }
     ],
@@ -78,14 +78,6 @@ Puedes explorar mis proyectos de programación en [GitHub](https://github.com/fr
                 href: '/contact'
             }
         ]
-    },
-    subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        form: {
-            action: '#'
-        }
     },
     postsPerPage: 8,
     projectsPerPage: 8
