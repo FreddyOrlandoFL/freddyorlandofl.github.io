@@ -1,64 +1,52 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'Powerlifting GORM & Gin API 🏋️‍♂️'
+description: 'API de alto rendimiento para la gestión de atletas y analítica de rendimiento en Venezuela, desarrollada con Go.'
+publishDate: 'MAR 19 2026'
 isFeatured: true
 seo:
   image:
     src: '../../assets/images/project-3.jpg'
+    alt: 'Arquitectura del sistema de gestión de Powerlifting'
 ---
 
-![Project preview](../../assets/images/project-3.jpg)
+![Vista previa del proyecto](../../assets/images/project-3.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este proyecto documenta el desarrollo de un sistema de gestión deportiva centralizado, optimizado para el procesamiento de datos biométricos y proyecciones de fuerza.
 
-**Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
+**Resumen del Proyecto:**
+Este sistema es una infraestructura backend diseñada para organizar el Powerlifting en Venezuela. La plataforma permite el registro estructurado de atletas por estado y municipio, gestionando sus ciclos de entrenamiento y participaciones en competencias. Utilizando **Go (Golang)**, el motor procesa volúmenes de datos de entrenamiento para generar estimaciones de carga máxima en tiempo real, ofreciendo una herramienta analítica robusta para el levantamiento de potencia.
 
-## Objectives
+## Objetivos
 
-1. Develop a user-friendly mobile app that utilizes AI to provide personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients.
-2. Create an interactive cooking guide that assists users with step-by-step instructions, cooking tips, and real-time assistance.
-3. Implement a smart learning system that refines recommendations over time, adapting to users' taste preferences and dietary changes.
+1. **Geolocalización Deportiva:** Estructurar el censo nacional de atletas organizados jerárquicamente por su ubicación geográfica.
+2. **Cálculo de Proyecciones:** Implementar lógica de backend para estimar el RM (Repetición Máxima) basándose en el historial de entrenamiento.
+3. **Gestión de Competencias:** Crear un registro histórico de marcas oficiales que permita evaluar la progresión de los atletas en plataforma.
 
-## Features
+## Características Principales
 
-1. **AI-Powered Recipe Recommendations:**
+1. **Gestión de Atletas por Región:**
+- Arquitectura de datos diseñada para mapear estados y municipios de Venezuela.
+- Perfiles de atletas vinculados a su historial de marcas, peso corporal y categoría competitiva.
 
-- RoboChef analyzes users' taste preferences, dietary restrictions, and ingredient availability to suggest personalized recipes.
-- Machine learning algorithms continuously learn from user interactions, refining recommendations for an increasingly tailored experience.
+2. **Seguimiento de Entrenamientos:**
+- Registro de sesiones detalladas para los tres levantamientos principales (Sentadilla, Banca y Peso Muerto).
+- Persistencia de datos de volumen y fatiga para un análisis post-entrenamiento.
 
-2. **Ingredient Scanner and Inventory Management:**
+3. **Motor de Estimación de RM:**
+- Integración de fórmulas matemáticas (como Brzycki o Epley) para calcular proyecciones de fuerza máxima.
+- Visualización de la progresión de carga, permitiendo a los atletas ajustar sus bloques de entrenamiento.
 
-- Users can scan their pantry and refrigerator using the app's built-in ingredient scanner.
-- RoboChef provides recipe suggestions based on available ingredients and helps users manage their inventory by suggesting recipes that utilize soon-to-expire items.
+4. **Auditoría de Resultados:**
+- Módulo para registrar resultados oficiales de competencias, diferenciando entre levantamientos válidos y nulos.
+- Generación de rankings locales y nacionales basados en el total acumulado o puntos de coeficiente de fuerza.
 
-3. **Step-by-Step Cooking Guide:**
+## Stack Tecnológico
 
-- Each recipe includes a detailed step-by-step cooking guide with interactive multimedia elements.
-- Users can watch video tutorials, view images, and receive real-time tips from RoboChef as they progress through each cooking stage.
+- **Lenguaje:** [Go (Golang)](https://go.dev/) por su eficiencia y manejo de tipos.
+- **Framework Web:** [Gin Gonic](https://gin-gonic.com/) para el manejo de una API RESTful de baja latencia.
+- **Persistencia de Datos:** **PostgreSQL** con [GORM](https://gorm.io/) para gestionar relaciones complejas entre atletas, ubicaciones y entrenamientos.
+- **Lógica de Dominio:** Implementación de algoritmos de fuerza específicos del Powerlifting integrados en la capa de servicios.
 
-4. **Nutritional Insights and Meal Planning:**
+## Resultado
 
-- RoboChef provides nutritional information for each recipe, helping users make informed decisions about their meals.
-- The app offers meal planning features, allowing users to create weekly menus based on dietary goals and preferences.
-
-5. **Voice-Activated Assistance:**
-
-- Users can interact with RoboChef using voice commands for a hands-free cooking experience.
-- The AI assistant responds to queries, provides cooking tips, and adapts recipes based on user preferences.
-
-## Technology Stack
-
-- Frontend: Flutter for a seamless cross-platform mobile app experience.
-- Backend: Django for handling server-side logic and API integration.
-- Database: PostgreSQL for efficient data storage and retrieval.
-- AI Integration: TensorFlow for machine learning models powering recipe recommendations.
-
-> Ethan Donovan possesses a rare blend of technical expertise and creative flair. They skillfully transformed our vague ideas into a visually stunning and highly functional website. The end result exceeded our expectations, and we continue to receive compliments on the design and user experience.
-
-## Outcome
-
-RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+El sistema proporciona una base de datos centralizada y confiable para el deporte. Gracias al uso de Go y GORM, las consultas de progresión histórica se ejecutan de forma instantánea, permitiendo que el registro de una sesión de entrenamiento genere actualizaciones inmediatas en las proyecciones de rendimiento del atleta.
