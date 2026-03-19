@@ -10,7 +10,12 @@ const siteConfig: SiteConfig = {
     },
     title: 'Freddy Figueroa',
     subtitle: 'Here it is my personal Blog',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    description: `Hi there! I'm a Senior Software Engineer 💻 
+        Main Focus: Golang & Software Architecture. 
+        FullStack Skills: JavaScript (Node, React, Vue), PHP (Laravel), and Mobile (Ionic). 
+        Data Management: SQL (Postgres, Oracle, MariaDB) & NoSQL (MongoDB, Redis). 
+        Current Journey: Expanding my toolkit with Java/Spring Boot and Python. 
+        Goal: Collaborating with other developers on challenging projects.`,
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
