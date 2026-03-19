@@ -51,10 +51,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Linkedin',
             href: 'https://www.linkedin.com/in/freddyorlandofl'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
         }
     ],
     hero: {
@@ -74,7 +70,7 @@ Puedes explorar mis proyectos de programación en [GitHub](https://github.com/fr
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Ponte en contacto',
                 href: '/contact'
             }
         ]
