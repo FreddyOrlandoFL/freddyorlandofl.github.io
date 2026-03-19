@@ -1,66 +1,55 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'IntrusionAjax: Sistema de Cotización Inteligente'
+description: Plataforma integral para la gestión, configuración técnica y generación de presupuestos dinámicos para sistemas de seguridad avanzada.
+publishDate: 'MAR 15 2026'
 seo:
   image:
-    src: '../../assets/images/project-1.jpg'
-    alt: Project preview
+    src: '../../assets/images/intrusion-ajax-preview.jpg'
+    alt: Vista previa del sistema IntrusionAjax
 ---
 
-![Project preview](../../assets/images/project-1.jpg)
+![Vista previa del proyecto](../../assets/images/intrusion-ajax-preview.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este caso de estudio documenta el desarrollo de una infraestructura técnica real diseñada para optimizar procesos de venta y arquitectura de sistemas de seguridad.
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+**Resumen del Proyecto:**
+IntrusionAjax es una solución robusta desarrollada para Celucenter, diseñada para eliminar la complejidad en la venta de sistemas de seguridad. El núcleo del sistema es un motor de cálculo avanzado que permite a los asesores comerciales generar presupuestos técnicos precisos en segundos, asegurando la compatibilidad de hardware y la rentabilidad del negocio.
 
-## Objectives
+## Objetivos
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+1. Automatizar el flujo de ventas, transformando procesos manuales de cotización en una experiencia digital instantánea.
+2. Garantizar la integridad técnica mediante un algoritmo que valida la compatibilidad entre Hubs, sensores y accesorios.
+3. Centralizar la gestión de leads y la aplicación de reglas de negocio dinámicas para diferentes canales comerciales.
 
-## Features
+## Características Principales
 
-1. **EcoScore and Challenges:**
+1. **Algoritmo de Configuración Dinámica:**
+- Calculadora en tiempo real que procesa variables críticas (color, conectividad, verificación fotográfica).
+- Generación automática de tres niveles de seguridad: Inicial, Completa y Avanzada, permitiendo el "upselling" estratégico.
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+2. **Motor de Descuentos Multicanal:**
+- Módulo administrativo para gestionar campañas dinámicas (Planes familiares, convenios comerciales, descuentos por volumen).
+- Aplicación de reglas lógicas que aseguran que los márgenes de ganancia se mantengan dentro de los parámetros de la empresa.
 
-2. **Personalized Eco-Goals:**
+3. **Generación de Propuestas Profesionales (PDF):**
+- Integración con DomPDF para generar cotizaciones formales con un solo clic.
+- Opciones de personalización total: desglose de dispositivos, servicios de instalación y planes de mantenimiento premium.
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+4. **Gestión de Inventario y Catálogo Jerárquico:**
+- Estructura de datos flexible para familias de productos y dispositivos.
+- Implementación de *Soft Deletes* avanzados para proteger la integridad histórica de las ventas realizadas.
 
-3. **Green Rewards Marketplace:**
+## Stack Tecnológico
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+- **Backend:** Laravel (PHP) para una lógica de negocio robusta y escalable.
+- **Base de Datos:** MySQL con optimización de consultas para reportes de ventas.
+- **Frontend:** Bootstrap y JavaScript para una interfaz administrativa fluida y responsiva.
+- **Servicios:** SMTP para automatización de correos y DomPDF para la generación de documentos técnicos.
 
-4. **Community Hub:**
+## Resultado
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+IntrusionAjax redujo el tiempo de respuesta comercial en un 90%, permitiendo a la empresa escalar su volumen de ventas sin aumentar la carga operativa. La precisión técnica del sistema eliminó errores humanos en la configuración de kits de seguridad, mejorando la satisfacción final del cliente.
 
-5. **EcoEducator AI Assistant:**
+## Testimonio del Cliente
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
-
-## Technology Stack
-
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
-
-## Outcome
-
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
-
-## Client Testimonial
-
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+> El liderazgo técnico de Freddy Orlando fue fundamental. Logró traducir reglas de negocio complejas en una herramienta intuitiva que nuestro equipo de ventas adoptó de inmediato. La estabilidad del sistema desarrollado en Laravel ha sido excepcional.
