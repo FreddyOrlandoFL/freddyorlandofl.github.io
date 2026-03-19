@@ -9,11 +9,11 @@ const siteConfig: SiteConfig = {
         alt: 'Ethan Donovan'
     },
     title: 'Freddy Figueroa',
-    subtitle: 'Here it is my personal Blog',
+    subtitle: 'Aquí está mi blog personal.',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Freddy Figueroa - Senior Software Engineer'
     },
     headerNavLinks: [
         {
