@@ -1,7 +1,7 @@
 ---
-title: Your Roadmap to Framework Selection Success
-excerpt: Choosing the right framework for your web project is a critical decision that can significantly impact the development process and the success of your project. With so many options available, it's essential to consider various factors before making a choice.
-publishDate: 'Jan 11 2024'
+title: Powerlifting GORM & Gin API 🏋️‍♂️
+excerpt: Este proyecto es un sistema de gestión para Powerlifting desarrollado en Go, utilizando GORM como ORM y Gin como Framework Web.
+publishDate: 'FEB 18 2026'
 isFeatured: true
 tags:
   - Golang
