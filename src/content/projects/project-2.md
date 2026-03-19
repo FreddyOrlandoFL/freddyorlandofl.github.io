@@ -1,64 +1,55 @@
 ---
-title: 'TimeWarp - Travel Agency Website'
-description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
-publishDate: 'Oct 2 2023'
+title: 'TAYP: Infraestructura Transaccional de Tiempo Aire'
+description: Plataforma de alta disponibilidad desarrollada en Go para el procesamiento masivo de recargas electrónicas y servicios en tiempo real.
+publishDate: 'MAR 10 2026'
 isFeatured: true
 seo:
   image:
     src: '../../assets/images/project-2.jpg'
-    alt: Project preview
+    alt: Arquitectura del sistema TAYP
 ---
 
-![Project preview](../../assets/images/project-2.jpg)
+![Vista previa del proyecto](../../assets/images/project-2.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este caso de estudio documenta el desarrollo de una infraestructura financiera real diseñada para Celucenter, optimizada para el procesamiento de transacciones de misión crítica.
 
-**Project Overview:**
-TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
+**Resumen del Proyecto:**
+TAYP es una plataforma transaccional de alto nivel diseñada para gestionar redes de distribución de tiempo aire en México. El sistema permite a una estructura jerárquica de vendedores adquirir "Saldo TAYP" y comercializar servicios de todas las operadoras. Reconstruí el núcleo del sistema utilizando **Go (Golang)** para garantizar que la plataforma soporte la alta demanda de transacciones concurrentes sin pérdida de datos ni latencia.
 
-> Working with Ethan Donovan was a game-changer for our online presence. Their innovative solutions and attention to detail turned our vision into a reality. The website not only looks fantastic but also functions seamlessly. A true professional who exceeded our expectations!
+## Objetivos
 
-## Objectives
+1. **Escalabilidad Horizontal:** Crear un motor capaz de procesar ráfagas de miles de recargas simultáneas durante picos de demanda.
+2. **Integridad Financiera:** Implementar un sistema de monedero virtual con precisión atómica para la gestión de saldos entre distribuidores y puntos de venta.
+3. **Resiliencia Técnica:** Asegurar una conectividad ininterrumpida con los diversos Proveedores Autorizados de Certificación (PAC) y operadoras.
 
-1. Create a visually stunning and user-friendly website that captures the essence of time travel.
-2. Integrate interactive elements to engage users and make the experience memorable.
-3. Develop a responsive design to ensure a seamless user experience across various devices.
+## Características Principales
 
-## Features
+1. **Motor de Concurrencia Avanzada:**
+- Implementación de *Goroutines* y *Channels* para manejar peticiones asíncronas, permitiendo que cada recarga se procese de forma independiente y ultra-rápida.
+- Optimización de recursos de servidor, logrando un rendimiento superior con un menor consumo de memoria comparado con arquitecturas tradicionales.
 
-1. **Dynamic Destination Timelines:**
+2. **Gestión de Red de Distribución:**
+- Sistema de jerarquías para administrar múltiples niveles de vendedores, permitiendo la asignación de crédito y el monitoreo de ventas en tiempo real.
+- Interfaz optimizada para puntos de venta (PDV) que requiere el mínimo de clics para concretar una transacción.
 
-- Users can explore destinations through dynamic timelines, showcasing significant historical events, cultural developments, and architectural milestones.
-- Interactive sliders allow users to navigate through different eras, providing a visual representation of the historical evolution of each location.
+3. **Arquitectura de Failover Inteligente:**
+- Integración con múltiples rutas de conexión para operadoras (Telcel, AT&T, Movistar, etc.).
+- Algoritmo de conmutación automática: si un nodo de enlace presenta latencia o errores, el sistema redirige la petición a una ruta alterna de forma invisible para el usuario.
 
-2. **Interactive Historical Events:**
+4. **Conciliación y Auditoría:**
+- Dashboard administrativo con reportes detallados de movimientos, conciliación bancaria automatizada y protección contra doble gasto de saldo.
 
-- Users can click on specific points in the timeline to reveal detailed information about key historical events related to the chosen destination.
-- Rich multimedia content, including images, videos, and articles, provides a comprehensive understanding of each event.
+## Stack Tecnológico
 
-3. **Personalized Time Travel Planner:**
+- **Lenguaje:** [Go (Golang)](https://go.dev/) seleccionado por su manejo nativo de alta concurrencia.
+- **Framework Web:** [Gin Gonic](https://gin-gonic.com/) para una capa de API de alto rendimiento.
+- **Persistencia de Datos:** **PostgreSQL** con [GORM](https://gorm.io/) para asegurar transacciones ACID y relaciones de datos complejas.
+- **Infraestructura:** Despliegue en entornos escalables con monitoreo constante de latencia y salud del sistema.
 
-- A personalized planner feature enables users to create their time travel itineraries by selecting specific eras and destinations.
-- The system suggests thematic experiences, such as attending historical events or meeting famous personalities.
+## Resultado
 
-4. **Time-Port Virtual Reality Experience:**
+La arquitectura de TAYP ha demostrado una fiabilidad excepcional del 99.9% en producción. Gracias a la migración a Go, Celucenter logró reducir los tiempos de respuesta de las recargas en más de un 60%, soportando un crecimiento masivo en su red de vendedores sin necesidad de incrementar los costos de infraestructura.
 
-- For an extra layer of immersion, users can opt for the Time-Port VR experience, allowing them to virtually step into different time periods and explore the surroundings in 360 degrees.
+## Testimonio del Cliente
 
-5. **Chronicle Explorer Blog:**
-
-- A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
-- Users can engage with the content, comment, and share their own historical insights.
-
-## Technology Stack
-
-- **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
-- **Backend:** Node.js for handling server-side logic and API integration.
-- **Database:** MongoDB for efficient storage and retrieval of historical data.
-- **VR Integration:** A-Frame framework for creating immersive virtual reality experiences.
-
-## Outcome
-
-The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+> "La dirección técnica de Freddy transformó nuestra visión en una herramienta de alto impacto. La robustez del sistema TAYP nos ha permitido escalar nuestra red de distribución con la confianza de que cada transacción es segura y veloz."

@@ -2,6 +2,7 @@
 title: 'IntrusionAjax: Sistema de Cotización Inteligente'
 description: Plataforma integral para la gestión, configuración técnica y generación de presupuestos dinámicos para sistemas de seguridad avanzada.
 publishDate: 'MAR 15 2026'
+isFeatured: true
 seo:
   image:
     src: '../../assets/images/project-1.jpg'
