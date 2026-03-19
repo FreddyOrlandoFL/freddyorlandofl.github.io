@@ -62,16 +62,16 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: `Hi there! I'm a **Senior Software Engineer** 💻 with over 17 years of experience, currently focused on **Golang & Software Architecture**. 
+        title: '¡Hola! ¡Bienvenidos a mi rincón de la web!!',
+        text: `¡Hola! Soy **Ingeniero de Software Senior** 💻 con más de 17 años de experiencia, actualmente enfocado en **Golang y Arquitectura de Software**.
 
-My approach involves embracing technical intuition, conducting just enough research, and leveraging clean architecture as a catalyst for exceptional, scalable products. 
+Mi enfoque se basa en la intuición técnica, la investigación justa y necesaria, y el uso de una arquitectura limpia como catalizador para productos excepcionales y escalables.
 
-With a FullStack toolkit that includes **Node, React, Vue, and Laravel**, I bridge the gap between high-performance backends and seamless user experiences. I have a profound appreciation for top-notch software design, distributed systems, and the principles of product-led growth.
+Con un conjunto de herramientas FullStack que incluye **Node, React, Vue y Laravel**, conecto backends de alto rendimiento con experiencias de usuario fluidas. Valoro profundamente el diseño de software de primer nivel, los sistemas distribuidos y los principios del crecimiento impulsado por el producto.
 
-Currently expanding my toolkit with **Java/Spring Boot and Python**, I’m always looking to collaborate on challenging projects. 
+Actualmente estoy ampliando mis conocimientos con **Java/Spring Boot y Python**, y siempre busco colaborar en proyectos desafiantes.
 
-Feel free to explore my coding endeavors on [GitHub](https://github.com/freddyorlandofl) or connect with me to talk shop.`,
+Puedes explorar mis proyectos de programación en [GitHub](https://github.com/freddyorlandofl) o contactarme para hablar de temas profesionales..`,
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
