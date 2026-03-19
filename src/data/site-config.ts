@@ -51,14 +51,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Linkedin',
             href: 'https://www.linkedin.com/in/freddyorlandofl'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
         }
     ],
     hero: {
