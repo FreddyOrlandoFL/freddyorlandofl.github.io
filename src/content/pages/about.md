@@ -1,43 +1,44 @@
 ---
-title: About
+title: Sobre mí
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: Sobre mí | Freddy Orlando
+  description: Conoce más sobre el desarrollador detrás de este sitio y descubre mi trayectoria en el mundo de la ingeniería de software.
   image:
     src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    alt: Una persona sentada en un escritorio frente a una computadora
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Texto alternativo para la imagen](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
+## Freddy Orlando - Software Engineer basado en Venezuela
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**¡Saludos!** Soy Freddy Orlando, un apasionado ingeniero de software que reside en [Venezuela](https://es.wikipedia.org/wiki/Venezuela) con una sólida trayectoria de 17 años en el desarrollo de soluciones tecnológicas. Con un enfoque especial en la arquitectura de sistemas y el diseño funcional, aporto una mezcla única de experiencia técnica y visión estratégica al mundo del desarrollo web.
 
-## Skills and Expertise
+## Habilidades y Experiencia
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+Con una trayectoria de **17 años** en el ecosistema de desarrollo, mi base técnica se consolidó en **PHP**, donde he liderado proyectos complejos utilizando frameworks de industria como **Laravel**, **CodeIgniter**, **CakePHP** y **Symfony**. Esta experiencia me ha permitido evolucionar hacia arquitecturas de alto rendimiento, especializándome actualmente en el desarrollo backend con **Go (Golang)**, utilizando **GORM** y **Gin Gonic** para la creación de APIs de misión crítica y sistemas de alta disponibilidad.
 
-## Innovation and Problem-Solving
+En el ámbito del desarrollo moderno de aplicaciones, poseo un dominio integral del entorno **Node.js** con **Express.js**, permitiéndome construir servicios escalables y eficientes. Mi enfoque FullStack se completa con una sólida capacidad para diseñar interfaces de usuario dinámicas e intuitivas, con amplia experiencia práctica en los principales ecosistemas de frontend: **Vue.js**, **React** y **Angular**. Esta versatilidad me permite seleccionar la herramienta técnica más adecuada para cada desafío, garantizando siempre la robustez y escalabilidad del producto final.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+## Innovación y Resolución de Problemas
 
-## Global Perspective, Local Impact
+Me apasiona resolver problemas complejos y transformar ideas de negocio en aplicaciones funcionales y elegantes. Ya sea optimizando el rendimiento de una base de datos, implementando arquitecturas de microservicios o depurando sistemas críticos, abordo cada desafío con entusiasmo y un compromiso inquebrantable con la calidad.
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+## Perspectiva Global e Impacto Local
 
-## Continuous Learning
+Residir en Venezuela me ha brindado una resiliencia única y una capacidad de adaptación que traslado directamente a mi flujo de trabajo. Entiendo la importancia de crear soluciones digitales que sean eficientes bajo cualquier condición, manteniendo siempre estándares internacionales de ingeniería.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+## Aprendizaje Continuo
 
-## Collaboration and Communication
+La naturaleza dinámica de la industria tecnológica me motiva a mantenerme actualizado con las últimas tendencias. Actualmente, sigo expandiendo mi stack con tecnologías como Python, Django y Spring Boot, siempre buscando herramientas que mejoren la funcionalidad y la estética de los proyectos que lidero.
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+## Colaboración y Comunicación
 
-## Get in Touch
+Creo firmemente en el poder de la colaboración y la comunicación efectiva. Ya sea trabajando con clientes directos, equipos de diseño u otros desarrolladores, valoro la claridad y la transparencia para asegurar el éxito de cada proyecto y el cumplimiento de los objetivos técnicos.
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+## Ponte en Contacto
 
-_Let's build something amazing together!_
+¿Buscas elevar tu presencia en línea o dar vida a una infraestructura escalable? ¡Me encantaría saber de ti! No dudes en contactarme para colaboraciones, consultoría técnica o simplemente para conversar sobre las últimas novedades en el desarrollo de software.
+
+_¡Construyamos algo increíble juntos!_
