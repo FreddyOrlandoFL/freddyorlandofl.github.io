@@ -11,4 +11,4 @@ _Email:_
 Feel free to drop me an email at [freddyorlandofl@gmail.com](mailto:freddyorlandofl@gmail.com), and I'll do my best to respond as soon as possible.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/freddyorlandofl).
+Connect with me on social media as well. Find me on [LinkedIn](https://www.linkedin.com/in/freddyorlandofl/).
