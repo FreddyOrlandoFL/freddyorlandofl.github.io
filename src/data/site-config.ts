@@ -10,12 +10,7 @@ const siteConfig: SiteConfig = {
     },
     title: 'Freddy Figueroa',
     subtitle: 'Here it is my personal Blog',
-    description: `Hi there! I'm a Senior Software Engineer 💻 
-        Main Focus: Golang & Software Architecture. 
-        FullStack Skills: JavaScript (Node, React, Vue), PHP (Laravel), and Mobile (Ionic). 
-        Data Management: SQL (Postgres, Oracle, MariaDB) & NoSQL (MongoDB, Redis). 
-        Current Journey: Expanding my toolkit with Java/Spring Boot and Python. 
-        Goal: Collaborating with other developers on challenging projects.`,
+    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -68,7 +63,15 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        text: `Hi there! I'm a **Senior Software Engineer** 💻 with over 17 years of experience, currently focused on **Golang & Software Architecture**. 
+
+My approach involves embracing technical intuition, conducting just enough research, and leveraging clean architecture as a catalyst for exceptional, scalable products. 
+
+With a FullStack toolkit that includes **Node, React, Vue, and Laravel**, I bridge the gap between high-performance backends and seamless user experiences. I have a profound appreciation for top-notch software design, distributed systems, and the principles of product-led growth.
+
+Currently expanding my toolkit with **Java/Spring Boot and Python**, I’m always looking to collaborate on challenging projects. 
+
+Feel free to explore my coding endeavors on [GitHub](https://github.com/freddyorlandofl) or connect with me to talk shop.`,
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
