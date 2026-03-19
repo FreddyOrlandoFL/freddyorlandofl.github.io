@@ -4,11 +4,11 @@ description: Plataforma integral para la gestión, configuración técnica y gen
 publishDate: 'MAR 15 2026'
 seo:
   image:
-    src: '../../assets/images/intrusion-ajax-preview.jpg'
+    src: '../../assets/images/project-1.jpg'
     alt: Vista previa del sistema IntrusionAjax
 ---
 
-![Vista previa del proyecto](../../assets/images/intrusion-ajax-preview.jpg)
+![Vista previa del proyecto](../../assets/images/project-1.jpg)
 
 **Nota:** Este caso de estudio documenta el desarrollo de una infraestructura técnica real diseñada para optimizar procesos de venta y arquitectura de sistemas de seguridad.
 
